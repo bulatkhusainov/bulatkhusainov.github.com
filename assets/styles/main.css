@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background:#fff 
+  background:#fff ;
   background-size:cover;
   display:flex;
   flex-direction: column;
