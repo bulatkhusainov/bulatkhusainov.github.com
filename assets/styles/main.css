@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background:#fff url(../images/bg-noon.jpg) no-repeat top center;
+  background:#fff 
   background-size:cover;
   display:flex;
   flex-direction: column;
@@ -21,21 +21,6 @@ body {
   font-size: calc(16px + 1vw);
 }
 
-body.morning {
-  background:#fff url(../images/bg-morning.jpg) no-repeat top center;
-  background-size:cover;
-  color: #fff;
-}
-body.evening {
-  background:#fff url(../images/bg-evening.jpg) no-repeat top center;
-  background-size:cover;
-  color: #fff;
-}
-body.night {
-  background:#fff url(../images/bg-night.jpg) no-repeat top center;
-  background-size:cover;
-  color: #fff;
-}
 
 * {
   margin: 0;
