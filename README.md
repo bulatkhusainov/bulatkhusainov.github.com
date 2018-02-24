@@ -1,7 +1,4 @@
 # bulatkhusainov.github.com
-Personal webpage
+personal webpage
 =====================
-Credits
--------
-* Photos used in template: **Unsplash** - http://unsplash.com
 

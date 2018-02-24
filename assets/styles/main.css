@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background:#D3D3D3;
+  background:#ededed;
   background-size:cover;
   display:flex;
   flex-direction: column;
@@ -60,6 +60,7 @@ header {
 .main h1,
 .main h2 {
   font-weight: normal;
+  margin-top:1em;
   text-align: center;
 }
 
@@ -93,14 +94,14 @@ header {
 
 footer {
   width: 100%;
-  height: 2em;
+  height: 5em;
   overflow: hidden;
 }
 
 .social {
   display: flex;
   margin:0 auto;
-  font-size: 1.3em;
+  font-size: 3em;
 }
 
 .social a {
