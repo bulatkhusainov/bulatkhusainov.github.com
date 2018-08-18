@@ -8,17 +8,20 @@ html {
 }
 
 body {
-  background:#ededed;
+  background:rgb(240,240,240);
   background-size:cover;
   display:flex;
   flex-direction: column;
-  align-content: space-between;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: center;
   color: #000;
-  height: 100%;
-  min-height: 100%;
+  height: 0%;
+  min-height: 0%;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
-  font-size: calc(16px + 1vw);
+  font-size: calc(22px);
+  align-content: center;
+  max-width: 700px;
+  margin: auto;
 }
 
 
@@ -29,11 +32,11 @@ body {
 }
 
 p {
-  font-size: .7em;
+  font-size: 14px;
 }
 
 a {
-  color: inherit;
+  color: blue;
 }
 
 header,
@@ -43,7 +46,7 @@ footer {
 }
 
 header {
-  height: 2em;
+  height: 0.5em;
 }
 
 /* Main part */
@@ -51,29 +54,32 @@ header {
 .main {
   flex-direction: column;
   justify-content: top;
-  align-items: center;
   width: 100%;
-  height:20em;
-  text-align: center;
+  height:0em;
+  webkit-align-content: center;
 }
 
 .main h1,
 .main h2 {
   font-weight: normal;
   margin-top:1em;
-  text-align: center;
+  text-align: left;
 }
 
 .main h1 {
+  font-style: italic;
+  font-size: calc(24px);
   opacity: 1;
-  font-size: calc(0.2em + 3vw);
+  text-align: left;
 }
 
 .main h2 {
-  font-size: .7em;
+  font-style: italic;
+  font-size: calc(18px);
   max-width: 70%;
   margin-top: 1em;
-  text-align: center;
+  text-align: left;
+
 }
 
 .main h3 {
@@ -84,24 +90,28 @@ header {
 }
 
 .main p {
-  max-width: 70%;
+  max-width: 100%;
   margin-top:1em;
-  text-align: center;
+  text-align: justify;
 }
 
 
 /* Footer */
 
 footer {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  height: 5em;
-  overflow: hidden;
+  height: 3em;
+  //overflow: hidden;
 }
 
 .social {
   display: flex;
   margin:0 auto;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .social a {
